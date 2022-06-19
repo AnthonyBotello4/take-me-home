@@ -122,7 +122,16 @@ header a {
   padding: 0px;
 
 }
+#beneficios {
+  text-align: center;
+  padding: 200px 0px;
+}
 
+#beneficios img {
+  width: 20%;
+  margin-left: 5%;
+
+}
 footer {
   font-family: Montserrat-Regular;
   background-color: #DCF5F6;
@@ -237,5 +246,20 @@ footer p {
 .col-si-eres h2{
     padding: 50px;
 }
-
+.container-beneficios{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+#beneficios img{
+  display: flex;
+  background-size:auto;
+  object-fit: auto;
+  width: 70%;
+  height: 80%;
+  margin-left: 15%;
+}
+.col-benef{
+  padding: 80px;
+}
 }
