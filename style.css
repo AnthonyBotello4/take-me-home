@@ -132,6 +132,18 @@ header a {
   margin-left: 5%;
 
 }
+#enterate {
+  text-align: center;
+  background-color: #DCF5F6;
+  padding: 250px 0px;
+}
+.resaltado{
+  font-family: Montserrat-Bold;
+  font-size: 40px;
+}
+#enterate img {
+  display: none;
+}
 footer {
   font-family: Montserrat-Regular;
   background-color: #DCF5F6;
@@ -261,5 +273,33 @@ footer p {
 }
 .col-benef{
   padding: 80px;
+}
+#enterate{
+  text-align: left;
+}
+#enterate img{
+  display: flex;
+  background-size:auto;
+  object-fit: auto;
+  width: 20%;
+  height: 20%;
+  margin-left: 5%;
+
+
+}
+.container-enterate{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.col-enterate{
+  padding: 20px 10px;
+  flex-direction: column;
+
+}
+.fil-enterate{
+  flex-direction: row;
+
 }
 }
