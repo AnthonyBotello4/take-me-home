@@ -97,6 +97,32 @@ header a {
   color: white;
 }
 
+#quienes-somos {
+  text-align: center;
+  padding: 200px 20px;
+
+}
+
+
+#si-eres {
+  text-align: center;
+  background-color: #DCF5F6;
+  padding: 150px 0px;
+}
+
+#si-eres ul {
+  text-align: center;
+}
+
+#si-eres h2 {
+  margin-top: 0;
+}
+
+.container-si-eres {
+  padding: 0px;
+
+}
+
 footer {
   font-family: Montserrat-Regular;
   background-color: #DCF5F6;
@@ -141,6 +167,8 @@ footer p {
   border-radius: 5px;
 }
 
+
+
 @media(min-width: 720px) {
   header {
       position: fixed;
@@ -155,5 +183,59 @@ footer p {
   header nav {
       flex-direction: row;
   }
+
+
+  #quienes-somos {
+    padding: 110px 20px;
+
+}
+
+.container-quienes-somos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container-quienes-somos p {
+    text-align: left;
+    padding: 20% 15%;
+    
+}
+
+.img-container {
+    background-size: cover;
+    object-fit: cover;
+    width: 80%;
+    height: 80%;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.container-quienes-somos.col p{
+    display: flex;
+    flex-direction: row;
+}
+.container-si-eres {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+#si-eres ul{
+    text-align: left;
+}
+.col-si-eres{
+    padding: 120px;
+}
+.col-si-eres li{
+    padding: 20px 0px;
+}
+.col-si-eres h2{
+    padding: 50px;
+}
 
 }
