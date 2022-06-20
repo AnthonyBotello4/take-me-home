@@ -144,6 +144,19 @@ header a {
 #enterate img {
   display: none;
 }
+#enterate-2 {
+  text-align: center;
+  padding: 200px 0px;
+}
+
+#enterate-2 p {
+  text-align: center;
+  padding: 0px 20px;
+}
+
+#enterate-2 img {
+  display: none;
+}
 footer {
   font-family: Montserrat-Regular;
   background-color: #DCF5F6;
